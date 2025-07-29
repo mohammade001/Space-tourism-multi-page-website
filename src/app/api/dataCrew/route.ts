@@ -40,5 +40,6 @@ const dataCrew: dataCrewType[] = [
   },
 ];
 export async function GET() {
+  
   return NextResponse.json(dataCrew);
 }
