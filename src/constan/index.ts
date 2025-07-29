@@ -1,6 +1,6 @@
 export async function dataDestinations() {
   try {
-    const data = await fetch(`http://space-tourism-multi-page-website.vercel.app/api/dataDestination`);
+    const data = await fetch(`http://localhost:3000/api/dataDestination`);
     if (!data.ok) {
       throw new Error("error in result api");
     }
@@ -11,7 +11,7 @@ export async function dataDestinations() {
 }
 export async function dataCrew() {
   try {
-    const data = await fetch(`http://space-tourism-multi-page-website.vercel.app/api/dataCrew`);
+    const data = await fetch(`http://localhost:3000/api/dataCrew`);
     if (!data.ok) {
       throw new Error("error in result api");
     }
