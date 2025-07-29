@@ -3,7 +3,7 @@ import { dataTechnologyType } from "@/type";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-function page() {
+function Page() {
   const [dataTechnology, setDataTechnology] = useState<dataTechnologyType[]>(
     []
   );
@@ -105,4 +105,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

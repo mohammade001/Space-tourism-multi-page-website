@@ -2,7 +2,7 @@ import CompontsDestination from "@/componts/CompontsDestination";
 import { dataDestinations } from "@/constan";
 import { dataDestinationsType } from "@/type";
 
-async function page() {
+async function Page() {
   const post: dataDestinationsType[] = await dataDestinations();
 
   
@@ -23,4 +23,4 @@ async function page() {
   );
 }
 
-export default page;
+export default Page;

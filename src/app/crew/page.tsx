@@ -3,7 +3,7 @@ import { dataCrew } from '@/constan';
 import { dataCrewType } from '@/type';
 import React from 'react'
 
-async function page() {
+async function Page() {
     const postCrew: dataCrewType[] = await dataCrew();
   
   return (
@@ -23,4 +23,4 @@ async function page() {
   );
 }
 
-export default page
+export default Page
