@@ -21,7 +21,7 @@ function page() {
     async function dataTechnology() {
       try {
         const result = await fetch(
-          "http://localhost:3000/api/dataTechnology"
+          "http://space-tourism-multi-page-website.vercel.app/api/dataTechnology"
         );
         if (!result.ok) {
           throw new Error("error in result api");
