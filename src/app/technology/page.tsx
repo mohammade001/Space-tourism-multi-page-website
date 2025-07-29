@@ -20,7 +20,9 @@ function page() {
   useEffect(() => {
     async function dataTechnology() {
       try {
-        const result = await fetch("http://localhost:8888/technology");
+        const result = await fetch(
+          "http://localhost:3000/api/dataTechnology"
+        );
         if (!result.ok) {
           throw new Error("error in result api");
         }
